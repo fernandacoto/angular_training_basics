@@ -10,7 +10,7 @@ export class SithListComponent implements OnInit {
 
 	characters = null;
 
-  constructor(private darkService: DarkService) { 
+  constructor(private darkService: DarkService) {
   		this.characters = darkService.getLordSiths();
   }
 
